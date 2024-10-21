@@ -1,0 +1,39 @@
+.ProductsTitle{
+    width:100%;
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Russo One", sans-serif;
+
+    
+}
+
+
+
+
+/* --------- Mobile View -----------*/
+
+@media only screen and (max-width: 767px) {
+
+
+    .ProductsTitle{
+        width:100%;
+        height:10vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-family: "Russo One", sans-serif;
+        position:absolute;
+        top:580vh;
+    
+        
+    }
+
+
+
+
+
+
+
+}

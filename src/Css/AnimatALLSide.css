@@ -1,0 +1,69 @@
+.AnimatAllSideOnlyTOpView{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5vw;
+ 
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+.AnimatAllSideOnlyTOpView_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap:20vh;
+
+}
+
+.AnimatAllSideOnlyTOpView_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap:20vh;
+
+}
+
+
+.AnimatAllSideOnlyTOpView_image img{
+height:90vh;
+}
+
+
+
+
+
+/*------ Mobile View ---------------*/
+@media only screen and (max-width: 767px){
+
+
+  .AnimatAllSideOnlyTOpView{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5vw;
+    margin-top:120px;
+    overflow: hidden;
+    position: relative;
+    padding:5vw;
+    
+}
+
+
+
+
+
+
+
+
+
+
+}

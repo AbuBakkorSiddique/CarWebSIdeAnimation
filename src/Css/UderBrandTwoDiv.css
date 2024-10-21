@@ -1,0 +1,93 @@
+.UderBrandTwoDiv{
+    width:100%;
+    height:100vh;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:5vh;
+    padding:9vw;
+}
+
+.UderBrandTwoDiv_one{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5vw;
+
+
+}
+.UderBrandTwoDiv_one_image img{
+    width:40vw;
+    height:45vh;
+}
+.UderBrandTwoDiv_one_Content{
+    width:40%;
+}
+
+
+.UderBrandTwoDiv_two{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5vw;
+    
+}
+
+.UderBrandTwoDiv_two_image img{
+    width:40vw;
+    height:45vh;
+}
+
+.UderBrandTwoDiv_two_content{
+
+    width:40%;
+}
+
+
+
+/* ------- mobile view --------------*/
+@media only screen and (max-width: 767px){
+
+    .UderBrandTwoDiv_one{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5vw;
+        flex-direction:column;
+    
+    
+    }
+
+    .UderBrandTwoDiv_one_image img{
+        width:100%;
+        height:45vh;
+    }
+    .UderBrandTwoDiv_one_Content{
+        width:100%;
+    }
+
+    .UderBrandTwoDiv_two{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5vw;
+        flex-direction:column;
+    }
+    .UderBrandTwoDiv_two_image img{
+        width:100%;
+        height:45vh;
+    }
+    .UderBrandTwoDiv_two_content{
+
+        width:100%;
+    }
+    
+
+
+}

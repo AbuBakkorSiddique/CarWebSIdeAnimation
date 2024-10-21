@@ -1,0 +1,15 @@
+
+/* --------- Mobile View -----------*/
+
+@media only screen and (max-width: 767px) {
+
+.Fotter{
+
+    position:absolute;
+    top:800vh;
+}
+
+
+
+
+}

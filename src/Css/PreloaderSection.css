@@ -1,0 +1,56 @@
+.proloaderSection{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vh;
+    overflow:hidden;
+ 
+
+}
+
+.preloaderTop{
+    width: 60%;
+    height: 15vh;
+ 
+}
+.preloaderTop p{
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.preloderCenter{
+    width: 60%;
+    height: 50vh;
+   
+}
+.PreloderBottom{
+    width: 60%;
+    height: 15vh;
+
+}
+
+/*  -----Mobile view ------------*/
+@media only screen and (max-width: 767px){
+    .proloaderSection{
+
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 2vh;
+        overflow:hidden;
+     
+    
+    }
+
+
+
+}

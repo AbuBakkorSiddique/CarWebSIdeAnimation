@@ -1,0 +1,62 @@
+.swiper {
+    width: 100%;
+    height: 60vh;
+   
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: white;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding:5vw;
+  
+
+  }
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  
+
+  .swiper-button-prev,  .swiper-button-next{
+    display:none;
+  }
+
+
+
+ .DoubleCOttionPIC{
+    width:5vw;
+    height:5vw;
+ }
+
+
+ .ReviewSlide_Content{
+    width:60%;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align:center;
+    gap:2vh;
+ }
+
+ img.DoubleCOttionPIC{
+    display:inline-block;
+ }
+
+ img.SliderREviewImage{
+    width:8vw;
+    height:8vw;
+    display:inline-block;
+    border:1px solid transparent ;
+    border-radius:50%;
+ }
