@@ -1,0 +1,15 @@
+[build]
+  base = "./"
+  publish = "build"
+  command = "npm run build"
+
+# Environment variables
+[context.production.environment]
+  REACT_APP_API_BASE_URL = "https://your-backend.herokuapp.com/api"
+
+# Redirect all requests to the index.html file
+# This is important for client-side routing to work properly
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
