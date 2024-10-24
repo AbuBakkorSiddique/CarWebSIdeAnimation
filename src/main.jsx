@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* demo */}
+    {/* demo s*/}
     <App />
   </StrictMode>,
 )
